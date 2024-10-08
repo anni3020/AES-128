@@ -28,3 +28,4 @@ AES-128 is used in:
 
 ## Future Scope
 Further exploration of other AES key sizes (192, 256 bits) or different encryption modes (CBC, GCM) can be added to this project.
+# Working
