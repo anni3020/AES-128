@@ -45,7 +45,7 @@ AES stands for **Advanced Encryption Standard**, and **128** refers to the lengt
 
 ### 1. Key Expansion
 AES-128 starts by generating a series of round keys from the original 128-bit key. These round keys are derived using key expansion algorithms and are used during the encryption process.
-https://github.com/anni3020/AES-128/issues/1#issue-2573502897
+![key expansion](https://github.com/user-attachments/assets/51158ab4-dfd4-402e-ba61-e7cd98dfcd29)[](url)
 
 ### 2. Initial AddRoundKey
 Before any round of transformation, the input data block (plaintext) is XORed with the first round key. This adds initial confusion to the data, preparing it for further rounds of encryption.
