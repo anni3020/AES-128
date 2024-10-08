@@ -56,6 +56,8 @@ Before any round of transformation, the input data block (plaintext) is XORed wi
 The next 9 rounds consist of the following steps:
 
 1. **SubBytes (Byte Substitution)**: Each byte in the input block is replaced by a corresponding value from a substitution table called the **S-Box**. This introduces non-linearity in the encryption process.
+   
+   ![image](https://github.com/user-attachments/assets/16317950-2267-431f-9204-ab27f79edcc4)[](url)
 2. **ShiftRows (Row Shifting)**: The rows of the 4x4 matrix representing the 128-bit block are shifted cyclically to introduce diffusion, ensuring that each byte impacts multiple bytes in subsequent rounds.
 3. **MixColumns**: Columns of the matrix are mixed using a mathematical transformation that spreads the influence of each byte across the block.
 4. **AddRoundKey**: The data block is XORed with the next round key generated in the key expansion step.
