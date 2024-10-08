@@ -43,6 +43,7 @@ AES stands for **Advanced Encryption Standard**, and **128** refers to the lengt
 
 ## Steps in AES-128 Encryption
 
+![image](https://github.com/user-attachments/assets/583bab2b-24ec-4fcc-8a9f-9cae1d2c2c02)[](url)
 ### 1. Key Expansion
 AES-128 starts by generating a series of round keys from the original 128-bit key. These round keys are derived using key expansion algorithms and are used during the encryption process.
 
